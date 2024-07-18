@@ -20,6 +20,7 @@ public class Logistics implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int idLog;
     String description;
+    String name;
     boolean reserve;
     float prixUnit;
     int quantite;
